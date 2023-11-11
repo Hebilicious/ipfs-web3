@@ -1,9 +1,8 @@
 ipfs-web3
 ===========
 
-This is an experimental web3 plugin that enables IPFS features through Helia.
-Please check the repository for instructions with detailed information about the thought process.
-Please provide a `PRIVATE_KEY` environment variable to run the tests.
+- Please check the https://github.com/Hebilicious/web3-ipfs-plugin repository before you check this one.
+- This is an experimental web3 plugin that enables IPFS features through Helia.
 
 How to use
 ------------
