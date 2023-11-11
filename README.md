@@ -1,24 +1,16 @@
-web3-plugin-template
+ipfs-web3
 ===========
 
-This is a template for creating a repository for web3.js plugin.
+This is an experimental web3 plugin that enables IPFS features through Helia.
+Please check the repository for instructions with detailed information about the thought process.
+Please provide a `PRIVATE_KEY` environment variable to run the tests.
 
 How to use
 ------------
 
-1. Create your project out of this template.
-
-    You can do so by pressing on `Use this template` on the above right corner and then select `Create new Repositor`. Please, use the convention `web3-plugin-<name>` for your repo name.
-2. Update the `name` and `description` fileds at your `package.json`.
-
-    Chose a name like: `@<organization>/web3-plugin-<name>` (or the less better `web3-plugin-<name>`).
-3. Update the code inside `src` folder.
-
-4. Modify and add tests inside `test` folder.
-
-5. Publish to the npm registry.
-
-    You can publish with something like: `yarn build && npm publish --access public`.
+1. Install dependencies with `yarn install`.
+2. Add an environment variable `PRIVATE_KEY` with a private key that has some ETH on the Sepolia Testnet. You can use a `.env` file for this.
+3. Run the test with `yarn run test`
 
 Contributing
 ------------
